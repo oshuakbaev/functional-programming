@@ -2,13 +2,14 @@
 
 print("Shuakbayev Olzhas - IT age 20")
 
-if 5>2:
-	print("Aray Meirambaikyzy is the best teacher!");
-else:
-	print("also best as usually"); 
-
 username = input("Enter your name:")
+database_username = "Aray"
 
-print("Username: "+username)
+if username==database_username:
+	print("You entered to the system");
+else:
+	print("Access denied"); 
+
+
 
 
