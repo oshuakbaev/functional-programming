@@ -33,7 +33,10 @@ txt = "hello World"
 # x = txt.isalnum()
 # 9 
 
-x=txt.islower()
-# 9 
+# x=txt.islower()
+# 10
+
+x = txt.swapcase()
+ 
 
 print(x)
